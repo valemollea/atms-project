@@ -1,0 +1,21 @@
+{
+  "name": "atms-project",
+  "version": "0.0.1",
+  "description": "React demo app",
+  "scripts": {
+    "postinstall": "npm run clienti && npm run serveri",
+    "clienti": "cd client && npm i",
+    "serveri": "cd server && npm i",
+    "client": "cd client && npm start",
+    "server": "cd server && npm start",
+    "start": "concurrently --kill-others \"npm run server\" \"npm run client\" ",
+    "test": "which concurrently"
+  },
+  "keywords": [],
+  "author": "Valeria Mollea",
+  "license": "ISC",
+  "devDependencies": {
+    "node": "^14.7.0",
+    "concurrently": "^5.3.0"
+  }
+}

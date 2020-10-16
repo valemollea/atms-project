@@ -1,0 +1,29 @@
+.banc-title {
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #17a2b8
+}
+
+.dir-text {
+  text-align: left;
+  font-size: 1rem;
+}
+
+.coord-text {
+  text-align: left;
+  font-size: 0.9rem;
+  color: #636363;
+}
+
+.point-icon {
+  width: 25px;
+  display: block;
+  margin: auto;
+  margin-bottom: .5rem;
+}
+
+.distance-text {
+  font-weight: 500;
+  line-height: 1.2rem;
+}
